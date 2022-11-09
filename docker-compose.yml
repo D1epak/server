@@ -3,4 +3,4 @@ services:
     build: .
     command: app
     ports:
-      - "49003:8001"
+      - "49845:8001"
