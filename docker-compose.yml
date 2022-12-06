@@ -1,6 +1,7 @@
+version: "3.3"
 services:
   web:
     build: .
-    command: app
+    command: "go run main.go"
     ports:
       - "49845:8001"
